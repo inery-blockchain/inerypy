@@ -105,7 +105,7 @@ trx = {"actions": [action_payload]}
 
 # use Inery key for signing transaction
 key = INRKey('AUTHORIZATION_PRIVATE_KEY')
-out = ce.push_transaction(trx, key, broadcast=True)
+out = cli.push_transaction(trx, key, broadcast=True)
 print('================================================')
 print(out)
 print('================================================')
